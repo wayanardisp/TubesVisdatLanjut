@@ -10,7 +10,7 @@ st.set_page_config(page_title="Football Player Stats Dashboard", page_icon="⚽"
 st.header("⚽ FOOTBALL PLAYER STATISTICS ANALYSIS")
 
 # Load data
-df_gabungan_2324 = pd.read_csv('D:\Kuliah\SEMESTER 4 S2\Visualisasi Data Lanjut\TUBES\df_gabungan_2425_x.csv', header=[0, 1])
+df_gabungan_2324 = pd.read_csv('df_gabungan_2425_x.csv', header=[0, 1])
 
 # Utility functions
 def simplify_position(pos):
